@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A84914FC26A9E78F00C0C0A2 /* AlienforceTaskManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84914FB26A9E78F00C0C0A2 /* AlienforceTaskManagerApp.swift */; };
+		A84914FE26A9E78F00C0C0A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84914FD26A9E78F00C0C0A2 /* ContentView.swift */; };
+		A849150026A9E79100C0C0A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A84914FF26A9E79100C0C0A2 /* Assets.xcassets */; };
+		A849150326A9E79100C0C0A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A849150226A9E79100C0C0A2 /* Preview Assets.xcassets */; };
+		A849150E26A9E79100C0C0A2 /* AlienforceTaskManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849150D26A9E79100C0C0A2 /* AlienforceTaskManagerTests.swift */; };
+		A849151926A9E79100C0C0A2 /* AlienforceTaskManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849151826A9E79100C0C0A2 /* AlienforceTaskManagerUITests.swift */; };
+		A8C79ED626AF670500A3483B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C79ED526AF670500A3483B /* HomeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A849150A26A9E79100C0C0A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A84914F026A9E78F00C0C0A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A84914F726A9E78F00C0C0A2;
+			remoteInfo = AlienforceTaskManager;
+		};
+		A849151526A9E79100C0C0A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A84914F026A9E78F00C0C0A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A84914F726A9E78F00C0C0A2;
+			remoteInfo = AlienforceTaskManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A84914F826A9E78F00C0C0A2 /* AlienforceTaskManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlienforceTaskManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84914FB26A9E78F00C0C0A2 /* AlienforceTaskManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlienforceTaskManagerApp.swift; sourceTree = "<group>"; };
+		A84914FD26A9E78F00C0C0A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A84914FF26A9E79100C0C0A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A849150226A9E79100C0C0A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A849150426A9E79100C0C0A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A849150926A9E79100C0C0A2 /* AlienforceTaskManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlienforceTaskManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A849150D26A9E79100C0C0A2 /* AlienforceTaskManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlienforceTaskManagerTests.swift; sourceTree = "<group>"; };
+		A849150F26A9E79100C0C0A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A849151426A9E79100C0C0A2 /* AlienforceTaskManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlienforceTaskManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A849151826A9E79100C0C0A2 /* AlienforceTaskManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlienforceTaskManagerUITests.swift; sourceTree = "<group>"; };
+		A849151A26A9E79100C0C0A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8C79ED526AF670500A3483B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A84914F526A9E78F00C0C0A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A849150626A9E79100C0C0A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A849151126A9E79100C0C0A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A84914EF26A9E78F00C0C0A2 = {
+			isa = PBXGroup;
+			children = (
+				A84914FA26A9E78F00C0C0A2 /* AlienforceTaskManager */,
+				A849150C26A9E79100C0C0A2 /* AlienforceTaskManagerTests */,
+				A849151726A9E79100C0C0A2 /* AlienforceTaskManagerUITests */,
+				A84914F926A9E78F00C0C0A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A84914F926A9E78F00C0C0A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A84914F826A9E78F00C0C0A2 /* AlienforceTaskManager.app */,
+				A849150926A9E79100C0C0A2 /* AlienforceTaskManagerTests.xctest */,
+				A849151426A9E79100C0C0A2 /* AlienforceTaskManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A84914FA26A9E78F00C0C0A2 /* AlienforceTaskManager */ = {
+			isa = PBXGroup;
+			children = (
+				A84914FB26A9E78F00C0C0A2 /* AlienforceTaskManagerApp.swift */,
+				A84914FD26A9E78F00C0C0A2 /* ContentView.swift */,
+				A8C79ED526AF670500A3483B /* HomeView.swift */,
+				A84914FF26A9E79100C0C0A2 /* Assets.xcassets */,
+				A849150426A9E79100C0C0A2 /* Info.plist */,
+				A849150126A9E79100C0C0A2 /* Preview Content */,
+			);
+			path = AlienforceTaskManager;
+			sourceTree = "<group>";
+		};
+		A849150126A9E79100C0C0A2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A849150226A9E79100C0C0A2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A849150C26A9E79100C0C0A2 /* AlienforceTaskManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A849150D26A9E79100C0C0A2 /* AlienforceTaskManagerTests.swift */,
+				A849150F26A9E79100C0C0A2 /* Info.plist */,
+			);
+			path = AlienforceTaskManagerTests;
+			sourceTree = "<group>";
+		};
+		A849151726A9E79100C0C0A2 /* AlienforceTaskManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A849151826A9E79100C0C0A2 /* AlienforceTaskManagerUITests.swift */,
+				A849151A26A9E79100C0C0A2 /* Info.plist */,
+			);
+			path = AlienforceTaskManagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A84914F726A9E78F00C0C0A2 /* AlienforceTaskManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A849151D26A9E79100C0C0A2 /* Build configuration list for PBXNativeTarget "AlienforceTaskManager" */;
+			buildPhases = (
+				A84914F426A9E78F00C0C0A2 /* Sources */,
+				A84914F526A9E78F00C0C0A2 /* Frameworks */,
+				A84914F626A9E78F00C0C0A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlienforceTaskManager;
+			productName = AlienforceTaskManager;
+			productReference = A84914F826A9E78F00C0C0A2 /* AlienforceTaskManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A849150826A9E79100C0C0A2 /* AlienforceTaskManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A849152026A9E79100C0C0A2 /* Build configuration list for PBXNativeTarget "AlienforceTaskManagerTests" */;
+			buildPhases = (
+				A849150526A9E79100C0C0A2 /* Sources */,
+				A849150626A9E79100C0C0A2 /* Frameworks */,
+				A849150726A9E79100C0C0A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A849150B26A9E79100C0C0A2 /* PBXTargetDependency */,
+			);
+			name = AlienforceTaskManagerTests;
+			productName = AlienforceTaskManagerTests;
+			productReference = A849150926A9E79100C0C0A2 /* AlienforceTaskManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A849151326A9E79100C0C0A2 /* AlienforceTaskManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A849152326A9E79100C0C0A2 /* Build configuration list for PBXNativeTarget "AlienforceTaskManagerUITests" */;
+			buildPhases = (
+				A849151026A9E79100C0C0A2 /* Sources */,
+				A849151126A9E79100C0C0A2 /* Frameworks */,
+				A849151226A9E79100C0C0A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A849151626A9E79100C0C0A2 /* PBXTargetDependency */,
+			);
+			name = AlienforceTaskManagerUITests;
+			productName = AlienforceTaskManagerUITests;
+			productReference = A849151426A9E79100C0C0A2 /* AlienforceTaskManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A84914F026A9E78F00C0C0A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A84914F726A9E78F00C0C0A2 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					A849150826A9E79100C0C0A2 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = A84914F726A9E78F00C0C0A2;
+					};
+					A849151326A9E79100C0C0A2 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = A84914F726A9E78F00C0C0A2;
+					};
+				};
+			};
+			buildConfigurationList = A84914F326A9E78F00C0C0A2 /* Build configuration list for PBXProject "AlienforceTaskManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A84914EF26A9E78F00C0C0A2;
+			productRefGroup = A84914F926A9E78F00C0C0A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A84914F726A9E78F00C0C0A2 /* AlienforceTaskManager */,
+				A849150826A9E79100C0C0A2 /* AlienforceTaskManagerTests */,
+				A849151326A9E79100C0C0A2 /* AlienforceTaskManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A84914F626A9E78F00C0C0A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A849150326A9E79100C0C0A2 /* Preview Assets.xcassets in Resources */,
+				A849150026A9E79100C0C0A2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A849150726A9E79100C0C0A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A849151226A9E79100C0C0A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A84914F426A9E78F00C0C0A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C79ED626AF670500A3483B /* HomeView.swift in Sources */,
+				A84914FE26A9E78F00C0C0A2 /* ContentView.swift in Sources */,
+				A84914FC26A9E78F00C0C0A2 /* AlienforceTaskManagerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A849150526A9E79100C0C0A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A849150E26A9E79100C0C0A2 /* AlienforceTaskManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A849151026A9E79100C0C0A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A849151926A9E79100C0C0A2 /* AlienforceTaskManagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A849150B26A9E79100C0C0A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A84914F726A9E78F00C0C0A2 /* AlienforceTaskManager */;
+			targetProxy = A849150A26A9E79100C0C0A2 /* PBXContainerItemProxy */;
+		};
+		A849151626A9E79100C0C0A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A84914F726A9E78F00C0C0A2 /* AlienforceTaskManager */;
+			targetProxy = A849151526A9E79100C0C0A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A849151B26A9E79100C0C0A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A849151C26A9E79100C0C0A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A849151E26A9E79100C0C0A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AlienforceTaskManager/Preview Content\"";
+				DEVELOPMENT_TEAM = ZQAVFFZSU4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AlienforceTaskManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.fernandoflorez.AlienforceTaskManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A849151F26A9E79100C0C0A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AlienforceTaskManager/Preview Content\"";
+				DEVELOPMENT_TEAM = ZQAVFFZSU4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AlienforceTaskManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.fernandoflorez.AlienforceTaskManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A849152126A9E79100C0C0A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZQAVFFZSU4;
+				INFOPLIST_FILE = AlienforceTaskManagerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.fernandoflorez.AlienforceTaskManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlienforceTaskManager.app/AlienforceTaskManager";
+			};
+			name = Debug;
+		};
+		A849152226A9E79100C0C0A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZQAVFFZSU4;
+				INFOPLIST_FILE = AlienforceTaskManagerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.fernandoflorez.AlienforceTaskManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlienforceTaskManager.app/AlienforceTaskManager";
+			};
+			name = Release;
+		};
+		A849152426A9E79100C0C0A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZQAVFFZSU4;
+				INFOPLIST_FILE = AlienforceTaskManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.fernandoflorez.AlienforceTaskManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlienforceTaskManager;
+			};
+			name = Debug;
+		};
+		A849152526A9E79100C0C0A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZQAVFFZSU4;
+				INFOPLIST_FILE = AlienforceTaskManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.fernandoflorez.AlienforceTaskManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlienforceTaskManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A84914F326A9E78F00C0C0A2 /* Build configuration list for PBXProject "AlienforceTaskManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A849151B26A9E79100C0C0A2 /* Debug */,
+				A849151C26A9E79100C0C0A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A849151D26A9E79100C0C0A2 /* Build configuration list for PBXNativeTarget "AlienforceTaskManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A849151E26A9E79100C0C0A2 /* Debug */,
+				A849151F26A9E79100C0C0A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A849152026A9E79100C0C0A2 /* Build configuration list for PBXNativeTarget "AlienforceTaskManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A849152126A9E79100C0C0A2 /* Debug */,
+				A849152226A9E79100C0C0A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A849152326A9E79100C0C0A2 /* Build configuration list for PBXNativeTarget "AlienforceTaskManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A849152426A9E79100C0C0A2 /* Debug */,
+				A849152526A9E79100C0C0A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A84914F026A9E78F00C0C0A2 /* Project object */;
+}
